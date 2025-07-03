@@ -1,0 +1,8 @@
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+
+lint.select = ["E", "F", "I"]  # pycodestyle (E), pyflakes (F), isort (I)
+
+[tool.ruff.format]
+docstring-code-format = true
